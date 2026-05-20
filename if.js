@@ -1,12 +1,10 @@
-let age = 15;
-if (age >=18) {
-	console.log("You are an adult")
-}
-console.log ("this always runs")
-
-let tem =30;
-if (tem >= 35){
-	console.log ("weather is verry hot")
-}
-console.log ("weather is cold")
-
+let marks=80;
+if (marks>=75){
+	console.log("Grade:A");
+}else if (marks>=65){
+	console.log("Grade:B");
+}else if (marks>=55){
+	console.log("Grade:C");
+}else
+{console.log("Grade:F");
+}	

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home page</title>
+<link rel="stylesheet" href="new.css" >
+</head>
+<body>
+<!---header--->
+
+<header>
+
+<div class="logo">PraRoz<span>.</span></div>
+
+<nav>
+<div class="navigationbar">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">Design</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+</nav>
+<div class="Search-box">
+<input type="text" id="seacrhInput" placeholder="Type to search">
+<button onclick="handleSearch()">Search </button>
+</div>
+</header>
+
+<main class="container">
+<div class="content-left">
+
+<h1>Web Design & <br><span>Development</span><br> Course</h1>
+<p>Web Design is a specialisation of the design stream.They also use HTML ,CSS,<br> WYSI
+WYG editing software, mark up validators etc,to create design elements.</p>
+<button class="join">JOIN US</button>
+</div>
+
+<div class="content-right">
+<h2>Login Here</h2>
+<form id="login-info" onsubmit="handleLogin(event)">
+<div class="input-field">	
+	<input type ="email" id="emaill" required placeholder="Enter Emaill Here">
+</div>
+<div class="input-field">	
+	<input type ="password" id="password" required placeholder="Enter Password Here">
+</div>
+<button type="submit" class="Login-btn">Login</button>
+</form>
+<div class="form-footer">
+<p> Don't have an account?</p>
+<a href="#">Sign up here</a>
+<p class="Login-with">Log in with</p> 
+</div>  
+</div>
+</main>
+
+<script src="new.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Arial'}
+
+body{background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));color:#fff;min-height:100vh;
+background-image:"C:\Users\DELL\OneDrive\Documents\ICA html\dmytro-koplyk-atMhEhh7GJs-unsplash.jpg";
+background-size:cover;background-repeat:no-repeat;}
+
+
+header{display:flex;justify-content:space-between;padding:20px 8%;}
+
+.logo{font-size:30px;font-weight:bold;color:#ff7200;}
+
+.logo span{color:white;}
+
+
+.navigationbar{display:flex;}
+
+ul{list-style:none;}
+
+li{display:inline;margin:0 15px;}
+
+.Search-box input{padding:8px 12px;border:1px solid #ff7200;
+background:transparent;color:#fff;border-radius:4px 0 0 4px;outline:none;}
+
+button{padding:8px 15px;border:none;background-color:#ff7200;color:#fff;
+cursor:pointer;border-radius:0 4px 4px 0;font-weight:bold}
+
+.container{display:flex;justify-content:space-bettween;align-items:center;padding:60px 8%;}
+
+.content-left{width:55%;}
+
+h1{font-size:55px;line-height:1.2;margin-bottom:20px;}
+
+h1 span{color:#ff7200;}
+
+p{font

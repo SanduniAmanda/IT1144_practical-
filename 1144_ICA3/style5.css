@@ -145,6 +145,7 @@ button:hover {
 
 .product-grid {
     display: flex;
+	flex-wrap: wrap;
     position: relative;
     gap: 25px;
     padding: 10px 5% 30px 5%;
